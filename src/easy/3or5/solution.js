@@ -1,5 +1,5 @@
 function sumOfMultiples(number) {
-    let multipleList = 0
+    let multipleList = 0;
 
     for(let i = 0; i < number; i++) {
         if (i % 3 === 0 || i % 5 === 0 ) {
@@ -7,7 +7,7 @@ function sumOfMultiples(number) {
         }
     }
 
-    return multipleList
+    return multipleList;
 }
 
-console.log(sumOfMultiples(1000))
+console.log(sumOfMultiples(1000));
