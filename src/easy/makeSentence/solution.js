@@ -12,3 +12,6 @@ function fullSentence(start, sentence) {
 }
 
 console.log(fullSentence('hello', sentenceOne))
+
+//in function do if statement
+//includes MDN methods array protype
